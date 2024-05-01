@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app">
+
+    <include
+        android:id="@+id/view_top"
+        layout="@layout/tool_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_top">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_6sdp"
+            android:background="@drawable/bg_radius_24"
+            android:elevation="@dimen/_3sdp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="@dimen/_12sdp">
+
+            <TextView
+                android:id="@+id/tv_sugar_target"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginBottom="@dimen/_6sdp"
+                android:ellipsize="end"
+                android:fontFamily="@font/sf_pro_display_600"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:text="@string/pre_diabetes"
+                android:textColor="#D9831D"
+                android:textSize="@dimen/_18ssp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_12sdp">
+
+                <View
+                    android:id="@+id/view_low"
+                    android:layout_width="0dp"
+                    android:layout_height="12dp"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:background="@drawable/bg_radius_08_left"
+                    android:backgroundTint="@color/color_low"
+                    app:layout_constraintEnd_toStartOf="@+id/view_normal"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/sb_result" />
+
+                <View
+                    android:id="@+id/view_normal"
+                    android:layout_width="0dp"
+                    android:layout_height="12dp"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:background="@color/color_normal"
+                    app:layout_constraintEnd_toStartOf="@+id/view_pre_diabetes"
+                    app:layout_constraintStart_toEndOf="@+id/view_low"
+                    app:layout_constraintTop_toTopOf="@+id/sb_result" />
+
+                <View
+                    android:id="@+id/view_pre_diabetes"
+                    android:layout_width="0dp"
+                    android:layout_height="12dp"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:background="@color/color_pre_diabetes"
+                    app:layout_constraintEnd_toStartOf="@+id/view_diabetes"
+                    app:layout_constraintStart_toEndOf="@+id/view_normal"
+                    app:layout_constraintTop_toTopOf="@+id/sb_result" />
+
+                <View
+                    android:id="@+id/view_diabetes"
+                    android:layout_width="0dp"
+                    android:layout_height="12dp"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:background="@drawable/bg_radius_08_right"
+                    android:backgroundTint="@color/color_diabetes"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/view_pre_diabetes"
+                    app:layout_constraintTop_toTopOf="@+id/sb_result" />
+
+                <TextView
+                    android:id="@+id/tv_low"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/sf_pro_display_300"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:text="@string/_0"
+                    android:textColor="#121268"
+                    android:textSize="@dimen/_11ssp"
+                    app:layout_constraintEnd_toEndOf="@+id/view_normal"
+                    app:layout_constraintStart_toStartOf="@+id/view_low"
+                    app:layout_constraintTop_toBottomOf="@+id/view_low" />
+
+                <TextView
+                    android:id="@+id/tv_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/sf_pro_display_300"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:text="@string/_0"
+                    android:textColor="#121268"
+                    android:textSize="@dimen/_11ssp"
+                    app:layout_constraintEnd_toEndOf="@+id/view_pre_diabetes"
+                    app:layout_constraintStart_toStartOf="@+id/view_normal"
+                    app:layout_constraintTop_toBottomOf="@+id/view_normal" />
+
+                <TextView
+                    android:id="@+id/tv_pre_diabetes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/sf_pro_display_300"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:text="@string/_0"
+                    android:textColor="#121268"
+                    android:textSize="@dimen/_11ssp"
+                    app:layout_constraintEnd_toEndOf="@+id/view_diabetes"
+                    app:layout_constraintStart_toStartOf="@+id/view_pre_diabetes"
+                    app:layout_constraintTop_toBottomOf="@+id/view_pre_diabetes" />
+
+                <SeekBar
+                    android:id="@+id/sb_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:progressDrawable="@android:color/transparent"
+                    android:thumb="@drawable/ic_thumb"
+                    android:progress="318"
+                    android:max="630"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:paddingHorizontal="@dimen/_6sdp">
+
+                    <TextView
+                        android:id="@+id/tv_value"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/sf_pro_display_600"
+                        android:gravity="bottom"
+                        android:includeFontPadding="false"
+                        android:singleLine="true"
+                        android:text="@string/_95_0"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_28ssp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/tv_unit"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tv_unit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/sf_pro_display_400"
+                        android:gravity="bottom"
+                        android:includeFontPadding="false"
+                        android:text="@string/mg_dL"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_16ssp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="@dimen/_3sdp"
+                    android:layout_marginVertical="@dimen/_1sdp"
+                    android:background="@drawable/bg_radius_24"
+                    android:backgroundTint="#21B24A" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_condition"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/sf_pro_display_400"
+                        android:includeFontPadding="false"
+                        android:singleLine="true"
+                        android:text="@string/Before_exercise"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_11ssp" />
+
+                    <TextView
+                        android:id="@+id/tv_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/sf_pro_display_400"
+                        android:includeFontPadding="false"
+                        android:singleLine="true"
+                        android:text="@string/Before_exercise"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_11ssp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcv_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.StaggeredGridLayoutManager"
+                app:spanCount="3"
+                tools:listitem="@layout/item_note" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_sugar_dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:layout_marginVertical="@dimen/_18sdp"
+            android:background="@drawable/bg_radius_24"
+            android:backgroundTint="#036726"
+            android:fontFamily="@font/sf_pro_display_600"
+            android:gravity="center"
+            android:text="@string/sugar_dashboard"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:layout_marginBottom="@dimen/_6sdp"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:id="@+id/rl_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include layout="@layout/layout_result_low" />
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

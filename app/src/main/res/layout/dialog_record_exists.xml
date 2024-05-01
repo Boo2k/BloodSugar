@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/_12sdp"
+    android:background="@drawable/bg_radius_24"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/_12sdp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:fontFamily="@font/sf_pro_display_600"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/duplicate_records_detected"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:fontFamily="@font/sf_pro_display_400"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/you_are_adding_a_new_record_with_the_same_content_do_you_want_to_overwrite_that_record"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_11ssp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="@dimen/_6sdp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:id="@+id/btn_no"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_radius_24"
+            android:backgroundTint="#F1F1F1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:ellipsize="end"
+                android:fontFamily="@font/sf_pro_display_600"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:text="@string/no"
+                android:textColor="#454545"
+                android:textSize="@dimen/_11ssp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_yes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_radius_24"
+            android:backgroundTint="#21B24A">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:ellipsize="end"
+                android:fontFamily="@font/sf_pro_display_600"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:text="@string/yes"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_11ssp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

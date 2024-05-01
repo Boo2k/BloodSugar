@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="color_bg_app">#FCFCFC</color>
+    <color name="color_s">#FF27A453</color>
+    <color name="color_us">#585858</color>
+    <color name="color_btn_us">#E6E6E6</color>
+
+    <color name="color_21B24A">#21B24A</color>
+    <color name="color_002F00">#002F00</color>
+    <color name="color_1B6211">#1B6211</color>
+    <color name="color_E7F4DF">#E7F4DF</color>
+    <color name="color_121268">#121268</color>
+    <color name="color_001705">#001705</color>
+    <color name="color_353000">#353000</color>
+    <color name="color_330000">#330000</color>
+    <color name="color_E7E7E7">#E7E7E7</color>
+
+    <color name="color_low">#115BB2</color>
+    <color name="color_normal">#1CA74D</color>
+    <color name="color_pre_diabetes">#FEE503</color>
+    <color name="color_diabetes">#D20100</color>
+    <color name="color_27A453">#27A453</color>
+
+</resources>

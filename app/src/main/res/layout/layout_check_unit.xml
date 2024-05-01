@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ln_low"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:background="@drawable/bg_radius_08"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/_3sdp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:cardBackgroundColor="@color/color_low"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="0dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:fontFamily="@font/sf_pro_display_400"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:text="@string/low"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_11ssp" />
+
+        <TextView
+            android:id="@+id/tv_low"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/sf_pro_display_500"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:text="@string/_71_0"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_11ssp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:background="@drawable/bg_radius_08"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/_3sdp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:cardBackgroundColor="@color/color_normal"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="0dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:fontFamily="@font/sf_pro_display_400"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:text="@string/normal"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_11ssp" />
+
+        <TextView
+            android:id="@+id/tv_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/sf_pro_display_500"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:text="@string/_72_0_99_0"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_11ssp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln_pre_diabetes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:background="@drawable/bg_radius_08"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/_3sdp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:cardBackgroundColor="@color/color_pre_diabetes"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="0dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:fontFamily="@font/sf_pro_display_400"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:text="@string/pre_diabetes"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_11ssp" />
+
+        <TextView
+            android:id="@+id/tv_pre_diabetes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/sf_pro_display_500"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:text="@string/_99_0_126_0"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_11ssp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln_diabetes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:background="@drawable/bg_radius_08"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/_3sdp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:cardBackgroundColor="@color/color_diabetes"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="0dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:fontFamily="@font/sf_pro_display_400"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:text="@string/diabetes"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_11ssp" />
+
+        <TextView
+            android:id="@+id/tv_diabetes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/sf_pro_display_500"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:text="@string/_126_0"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_11ssp" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/btn_note"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:layout_marginEnd="@dimen/_4sdp"
+        android:background="@drawable/bg_radius_16"
+        android:backgroundTint="@color/color_E7E7E7"
+        android:paddingHorizontal="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/tv_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/sf_pro_display_600"
+            android:includeFontPadding="false"
+            android:text="@string/feel_good"
+            android:textColor="#003515"
+            android:textSize="@dimen/_11ssp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

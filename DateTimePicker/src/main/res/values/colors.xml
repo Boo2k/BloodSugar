@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="picker_background">#3F51B5</color>
+    <color name="picker_button_background_selected">#3F51B5</color>
+    <color name="picker_button_background">@android:color/white</color>
+    <color name="picker_button_background_innactive">#BDBDBD</color>
+    <color name="picker_default_text_color">#989898</color>
+    <color name="picker_default_selector_color">#CAECB5</color>
+    <color name="picker_default_divider_color">@android:color/transparent</color>
+    <dimen name="picker_default_divider_height">1dp</dimen>
+    <drawable name="picker_default_divider">@drawable/picker_divider</drawable>
+
+    <color name="black">#333333</color>
+    <color name="color_003515">#003515</color>
+</resources>

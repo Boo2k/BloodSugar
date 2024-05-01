@@ -1,0 +1,41 @@
+buildscript {
+
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        maven { url 'https://maven.google.com' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.4.2'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.0'
+
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        maven { url 'https://maven.google.com' }
+    }
+}
+
+ext {
+    sdk = 33
+    minSdk = 21
+
+    github = 'https://github.com/florent37/SingleDateAndTimePicker'
+
+    libraryGroup = 'com.github.florent37'
+    libraryName = 'DateTimePicker'
+    libraryVersion = "2.2.8"
+    libraryDescription = 'DateTimePicker'
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

@@ -1,0 +1,4 @@
+rootProject.name = "Blood Sugar"
+include ':app'
+include ':LibChart'
+include ':DateTimePicker'

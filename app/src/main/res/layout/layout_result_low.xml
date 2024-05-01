@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:fontFamily="@font/bakbak_one_400"
+        android:includeFontPadding="false"
+        android:text="@string/recommendations"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:fontFamily="@font/sf_pro_display_600"
+        android:includeFontPadding="false"
+        android:text="@string/this_time_your_blood_sugar_level_is_a_bit_low_your_safe_range_is_4_0_5_5_so_please_be_careful"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:fontFamily="@font/sf_pro_display_400"
+        android:includeFontPadding="false"
+        android:text="@string/result_low_1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:fontFamily="@font/sf_pro_display_400"
+        android:includeFontPadding="false"
+        android:text="@string/result_low_2"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:fontFamily="@font/sf_pro_display_400"
+        android:includeFontPadding="false"
+        android:text="@string/result_low_3"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:fontFamily="@font/sf_pro_display_400"
+        android:includeFontPadding="false"
+        android:text="@string/reference_https_medlineplus_gov_ency_patientinstructions_000085_htm"
+        android:textColor="#3C455B"
+        android:textSize="@dimen/_10ssp" />
+
+</LinearLayout>

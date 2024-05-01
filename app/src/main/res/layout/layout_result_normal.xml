@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:fontFamily="@font/bakbak_one_400"
+        android:includeFontPadding="false"
+        android:text="@string/recommendations"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:fontFamily="@font/sf_pro_display_600"
+        android:includeFontPadding="false"
+        android:text="@string/hello_your_blood_sugar_results_this_time_are_normal_i_m_happy_to_see_your_efforts_pay_off"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:fontFamily="@font/sf_pro_display_400"
+        android:includeFontPadding="false"
+        android:text="@string/result_normal_1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:fontFamily="@font/sf_pro_display_400"
+        android:includeFontPadding="false"
+        android:text="@string/result_normal_2"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:fontFamily="@font/sf_pro_display_400"
+        android:includeFontPadding="false"
+        android:text="@string/result_normal_3"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:fontFamily="@font/sf_pro_display_400"
+        android:includeFontPadding="false"
+        android:text="@string/reference_https_www_niddk_nih_gov_health_information_diabetes_overview_diet_eating_physical_activity"
+        android:textColor="#3C455B"
+        android:textSize="@dimen/_10ssp" />
+
+</LinearLayout>

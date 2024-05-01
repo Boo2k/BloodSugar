@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:fontFamily="@font/bakbak_one_400"
+        android:includeFontPadding="false"
+        android:text="@string/recommendations"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:fontFamily="@font/sf_pro_display_600"
+        android:includeFontPadding="false"
+        android:text="@string/your_blood_sugar_results_are_too_high_take_control_of_it_immediately"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:fontFamily="@font/sf_pro_display_400"
+        android:includeFontPadding="false"
+        android:text="@string/result_diabetes_1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:fontFamily="@font/sf_pro_display_400"
+        android:includeFontPadding="false"
+        android:text="@string/result_diabetes_2"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:fontFamily="@font/sf_pro_display_400"
+        android:includeFontPadding="false"
+        android:text="@string/result_diabetes_3"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:fontFamily="@font/sf_pro_display_400"
+        android:includeFontPadding="false"
+        android:text="@string/result_diabetes_4"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:fontFamily="@font/sf_pro_display_400"
+        android:includeFontPadding="false"
+        android:text="@string/result_diabetes_5"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:fontFamily="@font/sf_pro_display_400"
+        android:includeFontPadding="false"
+        android:text="@string/reference_https_www_niddk_nih_gov_health_information_diabetes_overview_healthy_living_with_diabetes"
+        android:textColor="#3C455B"
+        android:textSize="@dimen/_10ssp" />
+
+</LinearLayout>
